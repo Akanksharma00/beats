@@ -1,0 +1,195 @@
+.frame{
+    position: fixed;
+    background-color:#e6eeff;
+    height:500px;
+    width: 300px;
+}
+
+.violet{
+    position: fixed;
+    background-color: #cc00cc;
+    width:10px;
+    height: 5px;
+    margin-top: 200px;
+    margin-left: 90px;
+    animation-name: violet-animation;
+    animation-duration: 1s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+.indigo{
+    position: fixed;
+    background-color:indigo;
+    width:10px;
+    height: 5px;
+    margin-top: 200px;
+    margin-left: 100px;
+    animation-name: indigo-animaton;
+    animation-duration: 1s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+.blue{
+    position: fixed;
+    background-color:rgb(38, 0, 255);
+    width:10px;
+    height: 5px;
+    margin-top: 200px;
+    margin-left: 110px;
+    animation-name: blue-animation;
+    animation-duration: 1s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+.green{
+    position: fixed;
+    background-color:green;
+    width:10px;
+    height: 5px;
+    margin-top: 200px;
+    margin-left: 120px;
+    animation-name: green-animation;
+    animation-duration: 1s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+.yellow{
+    position: fixed;
+    background-color:rgba(255, 255, 0, 0.878);
+    width:10px;
+    height: 5px;
+    margin-top: 200px;
+    margin-left: 130px;
+    animation-name: yellow-animation;
+    animation-duration: 1s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+.orange{
+    position: fixed;
+    background-color:orange;
+    width:10px;
+    height: 5px;
+    margin-top: 200px;
+    margin-left: 140px;
+    animation-name: orange-animation;
+    animation-duration: 1s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+.red{
+    position: fixed;
+    background-color:rgba(255, 0, 0, 0.926);
+    width:10px;
+    height: 5px;
+    margin-top: 200px;
+    margin-left: 150px;
+    animation-name: red-animation;
+    animation-duration: 1s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes violet-animation{
+    0%{
+        height: 5px;
+    }
+    20%{
+        height: 100px;
+        margin-top:150px;
+    }
+    30%{
+        height: 5px;
+    }
+}
+
+@keyframes indigo-animaton{
+    0%{
+        height:5px;
+    }
+    30%{
+        height:100px;
+        margin-top:150px;
+    }
+    40%{
+        height: 5px;
+    }
+}
+
+@keyframes blue-animation{
+    0%{
+        height:5px;
+    }
+    40%{
+        height:100px;
+        margin-top:150px;
+    }
+    50%{
+        height: 5px;
+    }
+}
+
+@keyframes green-animation{
+    0%{
+        height:5px;
+    }
+    50%{
+        height:100px;
+        margin-top:150px;
+    }
+    60%{
+        height: 5px;
+    }
+}
+
+@keyframes yellow-animation{
+    0%{
+        height:5px;
+    }
+    60%{
+        height:100px;
+        margin-top:150px;
+    }
+    70%{
+        height: 5px;
+    }
+}
+
+@keyframes orange-animation{
+    0%{
+        height:5px;
+    }
+    70%{
+        height:100px;
+        margin-top:150px;
+    }
+    80%{
+        height: 5px;
+    }
+}
+
+@keyframes red-animation {
+    0%{
+        height:5px;
+    }
+    80%{
+        height:100px;
+        margin-top:150px;
+    }
+    90%{
+        height: 5px;
+    }
+}
